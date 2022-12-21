@@ -7,7 +7,7 @@ Project Name: Android Based Community Center Management System
    <li>IDE: Android Studio</li>
    <li>Database: Firebase Firestore</li>
    </ul>
-Project demonstration video is availabe <a href="https://www.youtube.com/watch?v=tBGxgWdxnus&t=2s&ab_channel=MahmudulHasan">here</a>
+Project demonstration video is availabe <a href="https://www.youtube.com/watch?v=fST_eNgMf7U&ab_channel=MahmudulHasan">here</a>
 
 <h6>User Home Page</h6>
 <ul>
