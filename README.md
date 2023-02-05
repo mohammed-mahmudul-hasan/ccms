@@ -8,7 +8,7 @@ Project Name: Android Based Community Center Management System
    <li>Database: Firebase Firestore</li>
    </ul>
 Project demonstration video is availabe <a href="https://www.youtube.com/watch?v=fST_eNgMf7U&ab_channel=MahmudulHasan">here</a>
-
+<h4>Main Features</h4>
 <h6>User Home Page</h6>
 <ul>
 <li>Food Packages (Can see the food packages with price offered by the community center)</li>
