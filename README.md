@@ -35,3 +35,8 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 <li>Update rental info (booking cost update)</li>
 <li>Log out (log out from app)</li>
 </ul>
+<h5>1. Git</h5>
+<p> I like to use git to upload code to GitHub. I wrote almost the full code offline and uploaded it to
+     GitHub using git. But I also modified the code in the IDE and updated it in GitHub pushing the code
+      using git.</p>
+<h5>1. UML</h5>
