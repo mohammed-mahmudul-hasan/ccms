@@ -8,6 +8,7 @@ Project Name: Android Based Community Center Management System
    <li>Database: Firebase Firestore</li>
    </ul>
 Project demonstration video is availabe <a href="https://www.youtube.com/watch?v=fST_eNgMf7U&ab_channel=MahmudulHasan">here</a>
+
 <h4>Main Features</h4>
 <h6>User Home Page</h6>
 <ul>
@@ -35,8 +36,14 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 <li>Update rental info (booking cost update)</li>
 <li>Log out (log out from app)</li>
 </ul>
-<h5>1. Git</h5>
+
+<h4>1. Git</h4>
 <p> I like to use git to upload code to GitHub. I wrote almost the full code offline and uploaded it to
      GitHub using git. But I also modified the code in the IDE and updated it in GitHub pushing the code
       using git.</p>
-<h5>1. UML</h5>
+<h4>1. UML</h4>
+<p>I've created 3 types of diagram for this project.</p>
+<li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v21/use_case_user.png">use case diagram (user)</a> </li>
+<li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v21/use_case_admin.jpg">use case diagram (admin)</a> </li>
+<li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v21/business%20process%20diagram.png">
+    Business Process Model</a></li>
