@@ -49,6 +49,8 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
     <li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v21/use_case_user.png" target="_blank">use case diagram (user)</a> </li>
     <li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v21/use_case_admin.jpg" target="_blank">use case diagram (admin)</a> </li>
 </ul>
+<p>The activity diagram shows the flow between different activity. As my project is a big project, I've shown only the booking process, which is the main feature of the app, in the activity diagram.</p>
+<li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v24/activity_diagram.png" target="_blank">Activity Diagram</a></li>
 <p>Business Process Model is a very important tool to build a flowing diagram or model. It's a mapping concept. It defines actual flow of data. It is process of creating a structural view of a process or system.</p>
 <li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v21/business%20process%20diagram.png" target="_blank">
     Business Process Model</a></li>
@@ -57,7 +59,7 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
     ER Diagram</a></li>
 
 <h4>9. IDE</h4>
-<p>I chose Android Studio as IDE for doing this project. Though I use Visual Studio Code most of the time to code
+<p>I chose Android Studio as <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v24/ide.png" target="_blank"> IDE</a> for doing this project. Though I use Visual Studio Code most of the time to code
     and do small projects, I selected Android Studio as it is very convenient to do android projects. It's also easy
     to use git plugin inside android studio to push and pull code from GitHub.
 </p>
