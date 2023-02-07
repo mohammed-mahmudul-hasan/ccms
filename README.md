@@ -50,7 +50,7 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
     <li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v21/use_case_admin.jpg" target="_blank">use case diagram (admin)</a> </li>
 </ul>
 <p>The activity diagram shows the flow between different activity. As my project is a big project, I've shown only the booking process, which is the main feature of the app, in the activity diagram.</p>
-<li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v24/activity_diagram.png" target="_blank">Activity Diagram</a></li>
+<li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v24/activity_diagram_updated.png" target="_blank">Activity Diagram</a></li>
 <p>Business Process Model is a very important tool to build a flowing diagram or model. It's a mapping concept. It defines actual flow of data. It is process of creating a structural view of a process or system.</p>
 <li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v21/business%20process%20diagram.png" target="_blank">
     Business Process Model</a></li>
