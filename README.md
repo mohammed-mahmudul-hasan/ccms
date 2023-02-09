@@ -38,9 +38,7 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 </ul>
 
 <h3>1. Git</h3>
-<p> I like to use git to upload code to GitHub. Firstly I wrote almost the full code offline and uploaded it to
-     GitHub using git. But I also modified the code several times in the IDE and updated it in GitHub pushing the code
-      using git.</p>
+<p> I like to use git to upload code to GitHub. Android Studio has built-in support for Git, making it easy to use  Git directly from the IDE. Firstly I wrote almost the full code offline in IDE and uploaded it to GitHub using git. But I also modified the code several times in the IDE and updated it to GitHub pushing the code using git.</p>
 
 
 <h3>2. UML</h3>
@@ -75,7 +73,8 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 <p>Here are the metrics I used in SonarQube</p>
 <ul>
     <li>Lines of Code (LOC) : 13k</li>
-    <li>Reliability Rating: A [0 bugs]</li>
+    <li>Reliability Rating: A</li>
+    <li>Bugs: 0</li>
     <li>Code Smells: 663</li>
     <li>Maintainability: A</li>
     <li>Vulnerabilities: 0</li>
@@ -86,15 +85,21 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 
 
 <h3>5. Clean Code Development</h3>
-
+<p>Clean code development is a software development practice that emphasizes writing code that is readable, maintainable, and scalable. This approach to coding helps to ensure that the code is easy to understand, debug, and modify.</p>
+<p>Here is my personal CCD cheet sheet. I've written it as a text file. Some examples where I've used this cheet sheet is given below:</p>
+<ul>
+    <li>Readability of the variable and methods name (Cheet Sheet #1): <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/java/com/example/ccms/login.java" target="_blank">login.java class</a></li>
+    <li>Code should be simple and no commented code or dead code (Cheet Sheet #2):<a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/java/com/example/ccms/UpdateProfileActivity.java#L100" target="_blank">UpdateProfileAcivity class</a></li>
+    <li>Check text format of user input (Cheet Sheet #4): <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/java/com/example/ccms/SignupActivity.java#L110" target="_blank">SignUpActivity.java</a></li>
+    <li>Write methods in a ctagorised way (Cheet Sheet #3): <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/java/com/example/ccms/AdminHomePageActivity.java#L35" target="_blank">AdminHomePageActivity</a></li>
+    <li>Exception handling (Cheet Sheet #7): <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/java/com/example/ccms/ContactUsActivity.java#L38">ContactUsActivity</a></li>
+</ul>
 
 <h3>6. Build Management</h3>
 
 <h3>7. Unit-Tests</h3>
 
 <h3>8. Continuous Delivery</h3>
-
-
 
 
 <h3>9. IDE</h3>

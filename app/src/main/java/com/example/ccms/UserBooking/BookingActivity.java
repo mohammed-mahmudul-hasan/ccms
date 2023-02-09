@@ -54,7 +54,7 @@ public class BookingActivity extends AppCompatActivity implements DatePickerDial
     private String rental_price=null;
     private String selected_shift,user_name,user_mobile;
     private String selected_date = null; private String selected_year=null;
-    private String selected_month=null; //private String event=null,guest=null;
+    private String selected_month=null;
     private String a="Evening"; private String b="Day";
     private double eve; double day;
     private String currentDate,currentTime;
@@ -226,8 +226,6 @@ public class BookingActivity extends AppCompatActivity implements DatePickerDial
         else if(month==8){selected_month="September";}else if(month==9){selected_month="October";}
         else if(month==10){selected_month="November";}else if(month==11){selected_month="December";}
 
-        // Toast.makeText(BookingActivity.this,"Selected month is "+selected_month,Toast.LENGTH_SHORT).show();
-        //  Toast.makeText(BookingActivity.this,"Selected year is "+selected_year,Toast.LENGTH_SHORT).show();
 
         check_availability();
     }

@@ -32,13 +32,12 @@ import java.util.Map;
 
 public class UpdateProfileActivity extends AppCompatActivity {
     private TextView email;
-    private Button select_photo,update;
+    private Button update;
    private EditText name,mobile;
-   //private ActionBar actionBar;
    private ProgressBar progressBar;
    FirebaseAuth mAuth;
    FirebaseFirestore db;
-   private String user_id,user_email;
+   private String user_id;
    private String updated_name=null;
    private String  updated_mobile=null;
 
@@ -47,8 +46,7 @@ public class UpdateProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update_profile);
 
-        /*actionBar=getSupportActionBar();
-        actionBar.setTitle("");*/
+
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
@@ -58,7 +56,6 @@ public class UpdateProfileActivity extends AppCompatActivity {
         email=(TextView)findViewById(R.id.update_profile_email);
         name=(EditText)findViewById(R.id.update_profile_name);
         mobile=(EditText)findViewById(R.id.update_profile_mobile);
-        select_photo=(Button)findViewById(R.id.button_user_image);
         update=(Button)findViewById(R.id.btn_update);
         progressBar=(ProgressBar)findViewById(R.id.update_progressBar);
 
@@ -102,7 +99,6 @@ public class UpdateProfileActivity extends AppCompatActivity {
     public void update_profile(){
         updated_name=name.getText().toString();
         updated_mobile=mobile.getText().toString().trim();
-        user_email=mAuth.getCurrentUser().getEmail();
 
         if(updated_name.isEmpty()){
             name.setError("Enter your name please");

@@ -1,0 +1,51 @@
+
+****** Clean Code Development Cheet Sheet *******
+
+#1. Readability
+    > Use meaningful names for variables, functions, and other elements.
+    > Variable and method names should be readable so that someone can easily understand it.
+
+Bad practice:
+    String e;
+    String p;
+Good practice:
+    String email;
+    String password;
+
+#2. Simplicity
+    > Avoid complex logic.
+    > Break down complex functions into smaller, simpler ones.
+    > Remove dead code and redundant statements.
+
+#3. Write functions or methods for in a well catagorised way so that they are easy to access to 
+update code if necessary.
+
+#4. Check the text format of user input is ok or not.
+
+Bad practice:
+email input => karim@@@ssg
+Takes the input and no warning.
+Good practice:
+email input => karim@@@ssg
+Displays warning for wrong format and force to input again.
+
+
+#5. Long statement should be avoided. Short statement is good to write.
+
+#6. When there is a library available, don't write your own code, use it.
+
+#7. It's good to handle exception. So, It's good to use try{}, catch{}.
+
+#8. Write TODO comments to indicate where there is something to be reworked.
+
+#9. Blank spaces
+    > Don't use unnecessary or multiple blank spaces.
+    >  Use exactly one blank space before and after mathematical operators and one blank space after commas.
+    > No blank space before a comma(,) or smicolon(;)
+
+Bad practice:
+a   =   1+2  ;
+Good practice:
+a = 1 + 2;
+
+#10. Always check the mandatory fields of a form are filled by the user or not. Display warning.

@@ -252,10 +252,9 @@ public class MainActivity extends AppCompatActivity
         return list;
     }
     private void init() {
-        //mPager = (ViewPager) findViewById(R.id.pager);
+
        mPager.setAdapter(new SlidingImage_Adapter(MainActivity.this,imageModelArrayList));
 
-       // CirclePageIndicator indicator = (CirclePageIndicator) findViewById(R.id.indicator);
         indicator.setViewPager(mPager);
 
         final float density = getResources().getDisplayMetrics().density;
@@ -336,25 +335,6 @@ public class MainActivity extends AppCompatActivity
     }
 
 
-   /* public void onBackPressed(){
-        AlertDialog.Builder builder=new AlertDialog.Builder(this);
-        builder.setMessage("Are you sure you want to exit").setCancelable(false)
-                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                       MainActivity.super.onBackPressed();
-                    }
-                })
-                .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        dialogInterface.cancel();
-                    }
-                });
-        AlertDialog alertDialog =builder.create();
-        alertDialog.show();
-
-    }*/
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
