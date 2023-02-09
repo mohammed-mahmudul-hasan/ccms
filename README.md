@@ -55,11 +55,11 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 </ul>
 <p>Business Process Model is a very important tool to build a flowing diagram or model. It's a mapping concept. It defines actual flow of data. It is process of creating a structural view of a process or system.</p>
 <ul>
-<li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v21/business%20process%20diagram.png" target="_blank">Business Process Model</a></li>
+<li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v21/business_process_diagram.png" target="_blank">Business Process Model</a></li>
 </ul>
 <p>The logical data model is used for reporting the database elements of a business sector. The entities and the relationships shared by them are the center elements of ER models. The Entity Relationship Diagram (ERD) is a logical data model. ER diagram of my project can be seen from the provided link below.</p>
 <ul>
-<li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v21/er%20diagram.png" target="_blank">ER Diagram</a></li>
+<li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v24/er_diagram.png" target="_blank">ER Diagram</a></li>
 </ul>
 
 
@@ -86,7 +86,7 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 
 <h3>5. Clean Code Development</h3>
 <p>Clean code development is a software development practice that emphasizes writing code that is readable, maintainable, and scalable. This approach to coding helps to ensure that the code is easy to understand, debug, and modify.</p>
-<p>Here is my personal CCD cheet sheet. I've written it as a text file. Some examples where I've used this cheet sheet is given below:</p>
+<p><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/cheet_sheet.txt" target="_blank">Here</a> is my personal CCD cheet sheet. I've written it as a text file. Some examples where I've used this cheet sheet are given below:</p>
 <ul>
     <li>Readability of the variable and methods name (Cheet Sheet #1): <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/java/com/example/ccms/login.java" target="_blank">login.java class</a></li>
     <li>Code should be simple and no commented code or dead code (Cheet Sheet #2):<a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/java/com/example/ccms/UpdateProfileActivity.java#L100" target="_blank">UpdateProfileAcivity class</a></li>
@@ -96,10 +96,17 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 </ul>
 
 <h3>6. Build Management</h3>
+<p>Android Studio uses the Gradle build system to compile, test, and package your app. Gradle is a powerful and flexible build system that provides a lot of customization options to help you manage your build process.</p>
+<p>Check the build.gradle file of my project <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/build.gradle" target="_blank">here.</a> </p>
+<p><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/build_successful.png" target="_blank">Here</a> is a proof that my project build is successful and apk is generated successfully. Additional <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/build_success_message.png" target="_blank">proof</a></p>
+
 
 <h3>7. Unit-Tests</h3>
 
 <h3>8. Continuous Delivery</h3>
+
+<p>Travis CI is a continuous integration and delivery platform that allows you to automatically build, test, and deploy your code. It integrates with your GitHub repository and can be configured to run your tests and build your app every time you push changes to your repository.</p>
+<p>For the continuous delivery pipeline I used Travis CI. Here is the link of the website and a screenshot was added to show the result of the Travis CI-website.</p>
 
 
 <h3>9. IDE</h3>
