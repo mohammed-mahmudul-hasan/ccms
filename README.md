@@ -102,6 +102,7 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 
 
 <h3>7. Unit-Tests</h3>
+<p>Unit testing in Android Studio involves writing tests for individual units of code, such as methods and classes, to ensure that they work as expected. Unit tests are typically run automatically whenever code changes are made, and they provide a fast and convenient way to catch bugs and prevent regressions before they reach users. To write unit tests in Android Studio, you need to create a separate test project, typically within the same repository as the main app project. You can use the JUnit library, which is included with Android Studio, to write and run your tests.</p>
 
 
 <h3>8. Continuous Delivery</h3>
@@ -136,9 +137,9 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 <h3>11. Functional Programming</h3>
 <p>I've tried to do functional programming in my poject as much as possible but as I can do this task outside of my project, I've done this in python programming language seperately for better understanding. Check my code. Specific part or section of the code is linked below to meet the specific requirement.</p>
 <ul>
-    <li>side effect free function: example 1</li>
-    <li>the use of higher-order functions: example 2 </li>
-    <li>only final data structures: example 5</li>
-    <li>functions as parameters and return values: example 3</li>
-    <li>use closures / anonymous functions: example 4</li>
+    <li>side effect free functions: <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/functional_programming.py#L1" target="_blank">example 1</a> </li>
+    <li>the use of higher-order functions: <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/functional_programming.py#L18" target="_blank">example 2</a> </li>
+    <li>only final data structures: <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/functional_programming.py#L67" target="_blank">example 5</a> </li>
+    <li>functions as parameters and return values: <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/functional_programming.py#L33" target="_blank"> example 3</a></li>
+    <li>use closures / anonymous functions: <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/functional_programming.py#L47" target="_blank">example 4</a> </li>
 </ul>
