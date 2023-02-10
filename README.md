@@ -75,7 +75,7 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
     <li>Lines of Code (LOC) : 13k</li>
     <li>Reliability Rating: A</li>
     <li>Bugs: 0</li>
-    <li>Code Smells: 663</li>
+    <li>Code Smells: 651</li>
     <li>Maintainability: A</li>
     <li>Vulnerabilities: 0</li>
     <li>Security Review: A</li>
@@ -103,10 +103,12 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 
 <h3>7. Unit-Tests</h3>
 
+
 <h3>8. Continuous Delivery</h3>
 
 <p>GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your software development workflows. With GitHub Actions, you can create custom workflows to automatically build, test, and deploy your code whenever a code change is pushed to your repository.</p>
-<p>For the continuous delivery pipeline I used GitHub Actions. Here is the link of the website and a screenshot was added to show the result of the GitHub Actions CI-website.</p>
+<p>For the continuous delivery pipeline I used GitHub Actions. It's Android CI workflow and check the <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/.github/workflows/android.yml" target="_blank">android.yml file.</a>  Here is the link of the<a href="https://github.com/mohammed-mahmudul-hasan/ccms/actions" target="_blank"> website </a> and a screenshot was added to show the result of the GitHub Actions CI-website.</p>
+
 
 
 
@@ -127,6 +129,16 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 
 <h3>10. DSL</h3>
 <p>DSL stands for Domain-Specific Language, which is a type of computer programming language that is designed to meet the specific needs of a particular domain or problem. DSLs are typically simpler and more focused than general-purpose programming languages, making them easier to learn and use for specific tasks.</p>
+<p>My DSL is different from my android project. I've done it seperately. Book fair is held thoughout the country, Bangladesh in february month every year. So, my idea is related to this. The DSL file will list the number of books and diaries sold every day and number of returned books by customers in a book stall. Then the total number of books and diaries sold by a book stall in a week will be calculated by a python code executing this dsl file. The number of returned books will be deducted from the number of sold books.</p>
+<p>The book_stall.dsl file() contains the DSL code and this is converted by a python code(.py) that executes each line. Check the screenshot of the code output. </p>
 
 
 <h3>11. Functional Programming</h3>
+<p>I've tried to do functional programming in my poject as much as possible but as I can do this task outside of my project, I've done this in python programming language seperately for better understanding. Check my code. Specific part or section of the code is linked below to meet the specific requirement.</p>
+<ul>
+    <li>side effect free function: example 1</li>
+    <li>the use of higher-order functions: example 2 </li>
+    <li>only final data structures: example 5</li>
+    <li>functions as parameters and return values: example 3</li>
+    <li>use closures / anonymous functions: example 4</li>
+</ul>
