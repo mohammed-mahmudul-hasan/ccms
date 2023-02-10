@@ -26,8 +26,9 @@ print(sum_of_squares(6))
 """
 Functional programming:
 Output of the code is 91
-The square function takes a number x and returns its square. The sum_of_squares function takes an integer n as an\\ argument and returns the sum of the squares of the first n positive numbers.
-As functional programming, I've used higher-order functions (map and sum) here in this code.
+The square function takes a number x and returns its square. The sum_of_squares function takes an integer n as an\\
+argument and returns the sum of the squares of the first n positive numbers. As functional programming, I've used\\
+higher-order functions (map and sum) here in this code.
 """
 #Example 3
 def task(func, x, y):
@@ -59,7 +60,9 @@ print(result2)
 """
 Functional programming:
 Output of the code is 14 & 24
-In this code, the function named multiply takes a number (p) as a parameter and returns a closure, the\\ inner_function, which takes another number (q) as a parameter and returns the product of p and q. This code\\ demonstrates the use of closures in functional programming.
+In this code, the function named multiply takes a number (p) as a parameter and returns a closure, the\\
+inner_function, which takes another number (q) as a parameter and returns the product of p and q. This code\\ 
+demonstrates the use of closures in functional programming.
 """
 #Example 5
 from typing import List
@@ -76,5 +79,7 @@ print(r)
 """
 Functional programming:
 Output of the code is [6, 8, 10]
-Firstly the even numbers are detected from the numbers list and final result is got adding 2 with each even \\ number. Using only final data structures and functional programming techniques, It can be determined that the\\ functions have no side effects and can be easily composed and reused in different combinations.
+Firstly the even numbers are detected from the numbers list and final result is got adding 2 with each even \\
+number. Using only final data structures and functional programming techniques, It can be determined that the\\ 
+functions have no side effects and can be easily composed and reused in different combinations.
 """
