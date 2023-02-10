@@ -105,8 +105,9 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 
 <h3>8. Continuous Delivery</h3>
 
-<p>Travis CI is a continuous integration and delivery platform that allows you to automatically build, test, and deploy your code. It integrates with your GitHub repository and can be configured to run your tests and build your app every time you push changes to your repository.</p>
-<p>For the continuous delivery pipeline I used Travis CI. Here is the link of the website and a screenshot was added to show the result of the Travis CI-website.</p>
+<p>GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your software development workflows. With GitHub Actions, you can create custom workflows to automatically build, test, and deploy your code whenever a code change is pushed to your repository.</p>
+<p>For the continuous delivery pipeline I used GitHub Actions. Here is the link of the website and a screenshot was added to show the result of the GitHub Actions CI-website.</p>
+
 
 
 <h3>9. IDE</h3>
