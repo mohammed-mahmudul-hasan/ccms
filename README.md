@@ -69,24 +69,23 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 
 <h3>3. DDD</h3>
 
-<p>This DDD(Domain-Driven Design) model provides a structured and organized way to represent the domain and its concepts and relationships, making it easier to understand and develop a Community Center Management System. Most of them I've already implemented in my project and some components aren't implemented yet like payment system and access management. Check my DDD here.</p>
+<p>This DDD(Domain-Driven Design) model provides a structured and organized way to represent the domain and its concepts and relationships, making it easier to understand and develop a Community Center Management System. Most of them I've already implemented in my project and some components aren't implemented yet like payment system and access management. Check my <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/ddd.jpg">DDD here.</a> </p>
 
 <h3>4. Metrics</h3>
 <p>SonarQube is a popular open-source platform for continuous code quality analysis and improvement. It provides a set of metrics to measure the quality and maintainability of code. These metrics provide valuable insights into the quality and maintainability of code, and can help developers and teams to identify areas for improvement and prioritize their efforts accordingly.</p>
 <p>There are some issues as my project is a large project and there are options to improve it in future. Most of the issues shown here suggest to remove the commented line of code and to rename the local variable. However, overall maintainability grade of the whole project is A. I analyzed the project connecting my GitHub repository to SonarCloud.</p>
 <p>Here are the metrics I used in SonarQube. I've used badges to show the results of the metrics.</p>
 <ul>
-    <li>Lines of Code (LOC) : [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
-    <li>Reliability Rating: [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
-    <li>Bugs: [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=bugs)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
-    <li>Code Smells: [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
-    <li>Maintainability Rating: [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
-    <li>Vulnerabilities: [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
-    <li>Security Rating: [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
-    <li>Duplications: [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
-</ul>
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=bugs)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)
+    <li> Lines of Code (LOC) : <img src="https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=ncloc" alt=""></li>
+    <li>Reliability Rating: <img src="https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=reliability_rating" alt=""></li>
+    <li>Bugs: <img src="https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=bugs" alt=""></li>
+    <li>Code Smells: <img src="https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=code_smells" alt=""></li>
+    <li>Maintainability Rating: <img src="https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=sqale_rating" alt=""> </li>
+    <li>Vulnerabilities: <img src="https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=vulnerabilities" alt=""></li>
+    <li>Security Rating: <img src="https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=security_rating" alt=""></li>
 
+
+</ul>
 <p>An overview of SonarCloud analysis can be found <a href="https://sonarcloud.io/summary/overall?id=mohammed-mahmudul-hasan_ccms" target="_blank">here</a></p>
 
 
@@ -114,9 +113,7 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 <h3>8. Continuous Delivery</h3>
 
 <p>GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your software development workflows. With GitHub Actions, you can create custom workflows to automatically build, test, and deploy your code whenever a code change is pushed to your repository.</p>
-<p>For the continuous delivery pipeline I used GitHub Actions. It's Android CI workflow and check the <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/.github/workflows/android.yml" target="_blank">android.yml file.</a>  Here is the link of the<a href="https://github.com/mohammed-mahmudul-hasan/ccms/actions" target="_blank"> website </a> and a <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/github_actions.png">screenshot</a> is added to show the workflow of the GitHub Actions.</p>
-
-
+<p>For the continuous delivery pipeline I used GitHub Actions. It's Android CI workflow and check the <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/.github/workflows/android.yml" target="_blank">android.yml file.</a>  Here is the link of the<a href="https://github.com/mohammed-mahmudul-hasan/ccms/actions" target="_blank"> website </a> and a <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/github_action.png">screenshot</a> is added to show the workflow of the GitHub Actions.</p>
 
 
 <h3>9. IDE</h3>
