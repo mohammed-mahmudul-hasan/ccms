@@ -38,7 +38,7 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 </ul>
 
 <h3>1. Git</h3>
-<p> I like to use git to upload code to GitHub. Android Studio has built-in support for Git, making it easy to use  Git directly from the IDE. Firstly I wrote almost the full code offline in IDE and uploaded it to GitHub using git. But I also modified the code several times in the IDE and updated it to GitHub pushing the code using git.</p>
+<p> I like to use git to upload code to GitHub. Android Studio has built-in support for Git, making it easy to use  Git directly from the IDE. Firstly I wrote code offline in IDE and uploaded it to GitHub using git. I also modified the code several times in the IDE and updated it to GitHub pushing the code using git. Here is an <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/git_upload.png" target="_blank">screenshot</a> of IDE (terminal) when I pushed code successfully to GitHub. You can also check my commits and contribution chart in GitHub. </p>
 
 
 <h3>2. UML</h3>
@@ -101,19 +101,22 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 </ul>
 
 <h3>6. Build Management</h3>
-<p>Android Studio uses the Gradle build system to compile, test, and package your app. Gradle is a powerful and flexible build system that provides a lot of customization options to help you manage your build process.</p>
+<p>Android Studio uses the Gradle build system to compile, test, and package the app. Gradle is a powerful and flexible build system that provides a lot of customization options to help you manage your build process.</p>
 <p>Check the build.gradle file of my project <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/build.gradle" target="_blank">here.</a> </p>
 <p><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/build_successful.png" target="_blank">Here</a> is a proof that my project build is successful and apk is generated successfully. Additional <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/build_success_message.png" target="_blank">proof</a></p>
 
 
 <h3>7. Unit-Tests</h3>
-<p>Unit testing in Android Studio involves writing tests for individual units of code, such as methods and classes, to ensure that they work as expected. Unit tests are typically run automatically whenever code changes are made, and they provide a fast and convenient way to catch bugs and prevent regressions before they reach users. To write unit tests in Android Studio, you need to create a separate test project, typically within the same repository as the main app project. You can use the JUnit library, which is included with Android Studio, to write and run your tests.</p>
+<p>Unit testing in Android Studio involves writing tests for individual units of code, such as methods and classes, to ensure that they work as expected. Unit tests are typically run automatically whenever code changes are made, and they provide a fast and convenient way to catch bugs and prevent regressions before they reach users. To write unit tests in Android Studio, I've used the JUnit library, which is included with Android Studio.</p>
+<p>I've written two java class to do the Unit-Tests, one is for user login and another for user registration or signup process. The test code are available as <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/test/java/com/example/ccms/SignupActivityTest.java" target="_blank">SignupActivityTest</a> and <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/test/java/com/example/ccms/loginTest.java">loginTest.</a> </p>
 
 
 <h3>8. Continuous Delivery</h3>
 
 <p>GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your software development workflows. With GitHub Actions, you can create custom workflows to automatically build, test, and deploy your code whenever a code change is pushed to your repository.</p>
 <p>For the continuous delivery pipeline I used GitHub Actions. It's Android CI workflow and check the <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/.github/workflows/android.yml" target="_blank">android.yml file.</a>  Here is the link of the<a href="https://github.com/mohammed-mahmudul-hasan/ccms/actions" target="_blank"> website </a> and a <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/github_action.png">screenshot</a> is added to show the workflow of the GitHub Actions.</p>
+
+
 
 
 <h3>9. IDE</h3>
@@ -138,7 +141,7 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 
 
 <h3>11. Functional Programming</h3>
-<p>I've tried to do functional programming in my poject as much as possible but as I can do this task outside of my project, I've done this in python programming language seperately for better understanding. Check my code. Specific part or section of the code is linked below to meet the specific requirement.</p>
+<p>I've tried to do functional programming in my poject as much as possible but as I can do this task outside of my project, I've done this in python programming language seperately for better understanding. Check my code. Specific part or section of the code is linked below which meets the specific requirement.</p>
 <ul>
     <li>side effect free functions: <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/functional_programming.py#L1" target="_blank">example 1</a> </li>
     <li>the use of higher-order functions: <a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/functional_programming.py#L18" target="_blank">example 2</a> </li>
