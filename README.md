@@ -53,6 +53,10 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 <ul>
 <li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v24/activity_diagram_updated.png" target="_blank">Activity Diagram</a></li>
 </ul>
+<p>The sequence diagram shows the user log in system of my project.</p>
+<ul>
+    <li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/folder1/sequence_diagram.jpg" target="_blank">Sequence diagram</a></li>
+</ul>
 <p>Business Process Model is a very important tool to build a flowing diagram or model. It's a mapping concept. It defines actual flow of data. It is process of creating a structural view of a process or system.</p>
 <ul>
 <li><a href="https://github.com/mohammed-mahmudul-hasan/ccms/blob/main/app/src/main/res/drawable-v21/business_process_diagram.png" target="_blank">Business Process Model</a></li>
@@ -65,21 +69,21 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
 
 <h3>3. DDD</h3>
 
-<p>This DDD model provides a structured and organized way to represent the domain and its concepts and relationships, making it easier to understand and develop a Community Center Management System. Most of them I've already implemented in my project and some components aren't implemented yet like payment system and access management. Check my DDD here.</p>
+<p>This DDD(Domain-Driven Design) model provides a structured and organized way to represent the domain and its concepts and relationships, making it easier to understand and develop a Community Center Management System. Most of them I've already implemented in my project and some components aren't implemented yet like payment system and access management. Check my DDD here.</p>
 
 <h3>4. Metrics</h3>
 <p>SonarQube is a popular open-source platform for continuous code quality analysis and improvement. It provides a set of metrics to measure the quality and maintainability of code. These metrics provide valuable insights into the quality and maintainability of code, and can help developers and teams to identify areas for improvement and prioritize their efforts accordingly.</p>
 <p>There are some issues as my project is a large project and there are options to improve it in future. Most of the issues shown here suggest to remove the commented line of code and to rename the local variable. However, overall maintainability grade of the whole project is A. I analyzed the project connecting my GitHub repository to SonarCloud.</p>
-<p>Here are the metrics I used in SonarQube</p>
+<p>Here are the metrics I used in SonarQube. I've used badges to show the results of the metrics.</p>
 <ul>
-    <li>Lines of Code (LOC) : 13k</li>
-    <li>Reliability Rating: A</li>
-    <li>Bugs: 0</li>
-    <li>Code Smells: 651</li>
-    <li>Maintainability: A</li>
-    <li>Vulnerabilities: 0</li>
-    <li>Security Review: A</li>
-    <li>Duplications: 17.2%</li>
+    <li>Lines of Code (LOC) : [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
+    <li>Reliability Rating: [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
+    <li>Bugs: [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=bugs)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
+    <li>Code Smells: [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
+    <li>Maintainability Rating: [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
+    <li>Vulnerabilities: [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
+    <li>Security Rating: [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
+    <li>Duplications: [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
 </ul>
 <p>An overview of SonarCloud analysis can be found <a href="https://sonarcloud.io/summary/overall?id=mohammed-mahmudul-hasan_ccms" target="_blank">here</a></p>
 
