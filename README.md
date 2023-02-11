@@ -85,6 +85,8 @@ Project demonstration video is availabe <a href="https://www.youtube.com/watch?v
     <li>Security Rating: [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
     <li>Duplications: [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)</li>
 </ul>
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=mohammed-mahmudul-hasan_ccms&metric=bugs)](https://sonarcloud.io/summary/new_code?id=mohammed-mahmudul-hasan_ccms)
+
 <p>An overview of SonarCloud analysis can be found <a href="https://sonarcloud.io/summary/overall?id=mohammed-mahmudul-hasan_ccms" target="_blank">here</a></p>
 
 
